@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:id="@+id/wifiStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi Conaction Test"
+        android:textSize="30sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="24dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/wifi"/>
+
+    <Button
+        android:id="@+id/checkWifiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Conaction"
+        android:backgroundTint="#FFEB3B"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:elevation="4dp" />
+</LinearLayout>

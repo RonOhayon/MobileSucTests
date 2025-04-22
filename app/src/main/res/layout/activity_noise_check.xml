@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/noiseLevelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noise Level"
+        android:textSize="30sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#333"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/volume"/>
+
+    <Button
+        android:id="@+id/checkNoiseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Noise"
+        android:backgroundTint="#FFC107"
+        android:textColor="#fff"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>
